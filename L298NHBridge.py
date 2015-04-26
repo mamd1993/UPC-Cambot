@@ -1,18 +1,6 @@
 #!/usr/bin/env python
 # coding: latin-1
 
-# Autor:	Ingmar Stapel
-# Date:		20141229
-# Version:	1.0
-# Homepage:	www.raspberry-pi-car.com
-
-# This module is designed to control two motors with a L298N H-Bridge
-
-# Use this module by creating an instance of the class. To do so call the Init function, then command as desired, e.g.
-# import L298NHBridge
-# HBridge = L298NHBridge.L298NHBridge()
-# HBridge.Init()
-
 # Import the libraries the class needs
 import RPi.GPIO as io
 io.setmode(io.BCM)
